@@ -34,13 +34,7 @@ body {
   height: 100%;
 }
 
-h1 {
-  font-size: var(--heading1);
-}
 
-h2 {
-  font-size: var(--heading2);
-}
 
 #main-header {
   width: 100%;
@@ -126,7 +120,103 @@ h2 {
 
 /* 첫번째 칼럼 배경 스타일 지정 */
 .main .col:first-child {
-  background-image: url('../images/beijing.jpg');
+  background-image: url('../images/69afd179f9335e3968927ba92ddac949.png');
   background-size: cover;
+  background-position: center;
   /* background-position: center; */
+}
+.main .col.col:nth-child(2){
+  background-image: url('../images/osaka.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.main .col{
+  width: calc(100%/4);
+  height: 100%;
+  background: #abc;
+  position: relative;
+  float: left;
+}
+  
+.main .col h2{
+  background: rgba(19, 2, 16, 0.294);
+  text-align: center;
+  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  /*중앙수직 위치 = 50% -요소는 1/2*/
+  top: calc(50% - 109px / 2);
+}
+.main .col h2 span{
+  display: block;
+  font-size: 0.85rem;
+  font-weight: normal;
+}
+
+.main .col.col:nth-child(3){
+  background-image: url('../images/hongkong.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.main .col{
+  width: calc(100%/4);
+  height: 100%;
+  background: #abc;
+  position: relative;
+  float: left;
+}
+  
+.main .col h2{
+  background: rgba(19, 2, 16, 0.294);
+  text-align: center;
+  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  /*중앙수직 위치 = 50% -요소는 1/2*/
+  top: calc(50% - 109px / 2);
+}
+
+.main .col h2 span{
+  display: block;
+  font-size: 0.85rem;
+  font-weight: normal;
+}
+
+.main .col.col:last-child{
+  background-image: url('../images/bangkok.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.main .col{
+  width: calc(100%/4);
+  height: 100%;
+  background: #abc;
+  position: relative;
+  float: left;
+}
+  
+.main .col h2{
+  background: rgba(19, 2, 16, 0.294);
+  text-align: center;
+  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  /*중앙수직 위치 = 50% -요소는 1/2*/
+  top: calc(50% - 109px / 2);
+}
+
+.main .col h2 span{
+  display: block;
+  font-size: 0.85rem;
+  font-weight: normal;
 }
